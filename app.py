@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-import matplotlib.pyplot as plt
+import matplotlib as plt
 from pandas_datareader import data as pdr
 from keras.models import load_model
 import yfinance as yf
