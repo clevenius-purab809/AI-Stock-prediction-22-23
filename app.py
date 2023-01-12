@@ -1,8 +1,9 @@
+pip install matplotlib
 import numpy as np
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from pandas_datareader import data as pdr
 from keras.models import load_model
 import yfinance as yf
